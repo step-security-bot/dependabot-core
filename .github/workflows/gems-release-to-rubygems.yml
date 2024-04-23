@@ -6,6 +6,9 @@ on:  # yamllint disable-line rule:truthy
     # version is already live.
     types: [published]
 
+permissions:
+  contents: read
+
 jobs:
   release-gems:
     name: Release gems to rubygems.org

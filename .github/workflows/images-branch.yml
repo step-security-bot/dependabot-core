@@ -17,6 +17,9 @@ on:  # yamllint disable-line rule:truthy
         type: string
         description: PR number
 
+permissions:
+  contents: read
+
 jobs:
   approval:
     runs-on: ubuntu-latest
